@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-03T14:06:18 IST" name="Suite" finished-at="2021-07-03T14:08:18 IST" duration-ms="120177">
+    <groups>
+    </groups>
+    <test started-at="2021-07-03T14:06:18 IST" name="managlogni" finished-at="2021-07-03T14:06:30 IST" duration-ms="11302">
+      <class name="Testcases.ManagerLoginpage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerLoginpage@4803b726]" started-at="2021-07-03T14:06:18 IST" name="setup" finished-at="2021-07-03T14:06:29 IST" duration-ms="10620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup1()[pri:0, instance:Testcases.ManagerLoginpage@4803b726]" started-at="2021-07-03T14:06:29 IST" name="setup1" finished-at="2021-07-03T14:06:30 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+      </class> <!-- Testcases.ManagerLoginpage -->
+    </test> <!-- managlogni -->
+    <test started-at="2021-07-03T14:06:30 IST" name="manager Addcust" finished-at="2021-07-03T14:06:40 IST" duration-ms="10411">
+      <class name="Testcases.ManagerAddcustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:30 IST" name="setup" finished-at="2021-07-03T14:06:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCus()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:30 IST" name="AddCus" finished-at="2021-07-03T14:06:30 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:34 IST" name="setup" finished-at="2021-07-03T14:06:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:34 IST" name="excelR" data-provider="LoginData" finished-at="2021-07-03T14:06:36 IST" duration-ms="1730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelR -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:36 IST" name="setup" finished-at="2021-07-03T14:06:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:36 IST" name="excelR" data-provider="LoginData" finished-at="2021-07-03T14:06:37 IST" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelR -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:37 IST" name="setup" finished-at="2021-07-03T14:06:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:37 IST" name="excelR" data-provider="LoginData" finished-at="2021-07-03T14:06:39 IST" duration-ms="1445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ccc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelR -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:39 IST" name="setup" finished-at="2021-07-03T14:06:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.ManagerAddcustomer@a38c7fe]" started-at="2021-07-03T14:06:39 IST" name="excelR" data-provider="LoginData" finished-at="2021-07-03T14:06:40 IST" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ddd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelR -->
+      </class> <!-- Testcases.ManagerAddcustomer -->
+    </test> <!-- manager Addcust -->
+    <test started-at="2021-07-03T14:06:40 IST" name="showcust" finished-at="2021-07-03T14:06:48 IST" duration-ms="7372">
+      <class name="Testcases.Showcustomerdetails">
+        <test-method signature="setup3()[pri:0, instance:Testcases.Showcustomerdetails@4a883b15]" started-at="2021-07-03T14:06:40 IST" name="setup3" finished-at="2021-07-03T14:06:48 IST" duration-ms="7360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup3 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Showcustomerdetails@4a883b15]" started-at="2021-07-03T14:06:40 IST" name="setup" finished-at="2021-07-03T14:06:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Testcases.Showcustomerdetails -->
+    </test> <!-- showcust -->
+    <test started-at="2021-07-03T14:06:48 IST" name="openacc" finished-at="2021-07-03T14:06:57 IST" duration-ms="8973">
+      <class name="Testcases.openAccount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:48 IST" name="setup" finished-at="2021-07-03T14:06:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:48 IST" name="open" data-provider="data" finished-at="2021-07-03T14:06:50 IST" duration-ms="1673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:50 IST" name="setup" finished-at="2021-07-03T14:06:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:50 IST" name="open" data-provider="data" finished-at="2021-07-03T14:06:51 IST" duration-ms="1499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:51 IST" name="open" data-provider="data" finished-at="2021-07-03T14:06:53 IST" duration-ms="1519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:51 IST" name="setup" finished-at="2021-07-03T14:06:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:53 IST" name="setup" finished-at="2021-07-03T14:06:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:53 IST" name="open" data-provider="data" finished-at="2021-07-03T14:06:54 IST" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="checkAccNum()[pri:0, instance:Testcases.openAccount@4686afc2]" started-at="2021-07-03T14:06:54 IST" name="checkAccNum" finished-at="2021-07-03T14:06:57 IST" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccNum -->
+      </class> <!-- Testcases.openAccount -->
+    </test> <!-- openacc -->
+    <test started-at="2021-07-03T14:06:57 IST" name="go to home" finished-at="2021-07-03T14:06:59 IST" duration-ms="2111">
+      <class name="Testcases.gotohomepage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.gotohomepage@41a0aa7d]" started-at="2021-07-03T14:06:57 IST" name="setup" finished-at="2021-07-03T14:06:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup2()[pri:0, instance:Testcases.gotohomepage@41a0aa7d]" started-at="2021-07-03T14:06:57 IST" name="setup2" finished-at="2021-07-03T14:06:59 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup2 -->
+      </class> <!-- Testcases.gotohomepage -->
+    </test> <!-- go to home -->
+    <test started-at="2021-07-03T14:06:59 IST" name="Allcustlo" finished-at="2021-07-03T14:08:18 IST" duration-ms="79716">
+      <class name="Testcases.AllCustomerLogin">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:06:18 IST" name="BeforeSuite" finished-at="2021-07-03T14:06:18 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="AddCus()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:06:59 IST" name="AddCus" finished-at="2021-07-03T14:07:01 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:01 IST" name="setup" finished-at="2021-07-03T14:07:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:01 IST" name="open1" data-provider="customerdata" finished-at="2021-07-03T14:07:21 IST" duration-ms="19643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:21 IST" name="setup" finished-at="2021-07-03T14:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:21 IST" name="open1" data-provider="customerdata" finished-at="2021-07-03T14:07:40 IST" duration-ms="19088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:40 IST" name="setup" finished-at="2021-07-03T14:07:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:40 IST" name="open1" data-provider="customerdata" finished-at="2021-07-03T14:07:59 IST" duration-ms="19181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:59 IST" name="setup" finished-at="2021-07-03T14:07:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:07:59 IST" name="open1" data-provider="customerdata" finished-at="2021-07-03T14:08:18 IST" duration-ms="19172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:08:18 IST" name="AfterSuite" finished-at="2021-07-03T14:08:20 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.AllCustomerLogin@1c7696c6]" started-at="2021-07-03T14:08:20 IST" name="tearDown" finished-at="2021-07-03T14:08:21 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.AllCustomerLogin -->
+    </test> <!-- Allcustlo -->
+  </suite> <!-- Suite -->
+</testng-results>

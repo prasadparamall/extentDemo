@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\BOSU\eclipse-workspace\extentDeom\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerAddcustomer" class="method navigator-link" hash-for-method="AddCus">AddCus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerAddcustomer" class="method navigator-link" hash-for-method="excelR(rani, ddd, abc004)">excelR(rani, ddd, abc004)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerAddcustomer" class="method navigator-link" hash-for-method="excelR(ravi, ccc, abc003)">excelR(ravi, ccc, abc003)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerAddcustomer" class="method navigator-link" hash-for-method="excelR(raju, bb, abc002)">excelR(raju, bb, abc002)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerAddcustomer" class="method navigator-link" hash-for-method="excelR(kanna, admin, abc001)">excelR(kanna, admin, abc001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.openAccount" class="method navigator-link" hash-for-method="open(rani, Rupee)">open(rani, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.openAccount" class="method navigator-link" hash-for-method="open(kanna, Rupee)">open(kanna, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.openAccount" class="method navigator-link" hash-for-method="open(ravi, Rupee)">open(ravi, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.openAccount" class="method navigator-link" hash-for-method="open(raju, Rupee)">open(raju, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.AllCustomerLogin" class="method navigator-link" hash-for-method="open1(ravi, valid)">open1(ravi, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.AllCustomerLogin" class="method navigator-link" hash-for-method="open1(raju, valid)">open1(raju, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.AllCustomerLogin" class="method navigator-link" hash-for-method="open1(rani, valid)">open1(rani, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.AllCustomerLogin" class="method navigator-link" hash-for-method="open1(kanna, valid)">open1(kanna, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ManagerLoginpage" class="method navigator-link" hash-for-method="setup1">setup1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.gotohomepage" class="method navigator-link" hash-for-method="setup2">setup2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Showcustomerdetails" class="method navigator-link" hash-for-method="setup3">setup3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.ManagerAddcustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCus">
+                  </a> <!-- AddCus -->
+                  <span class="method-name">AddCus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelR(rani, ddd, abc004)">
+                  </a> <!-- excelR(rani, ddd, abc004) -->
+                  <span class="method-name">excelR</span>
+                  <span class="parameters">(rani, ddd, abc004)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelR(ravi, ccc, abc003)">
+                  </a> <!-- excelR(ravi, ccc, abc003) -->
+                  <span class="method-name">excelR</span>
+                  <span class="parameters">(ravi, ccc, abc003)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelR(raju, bb, abc002)">
+                  </a> <!-- excelR(raju, bb, abc002) -->
+                  <span class="method-name">excelR</span>
+                  <span class="parameters">(raju, bb, abc002)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelR(kanna, admin, abc001)">
+                  </a> <!-- excelR(kanna, admin, abc001) -->
+                  <span class="method-name">excelR</span>
+                  <span class="parameters">(kanna, admin, abc001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.ManagerLoginpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup1">
+                  </a> <!-- setup1 -->
+                  <span class="method-name">setup1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.gotohomepage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup2">
+                  </a> <!-- setup2 -->
+                  <span class="method-name">setup2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Showcustomerdetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup3">
+                  </a> <!-- setup3 -->
+                  <span class="method-name">setup3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.AllCustomerLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="open1(ravi, valid)">
+                  </a> <!-- open1(ravi, valid) -->
+                  <span class="method-name">open1</span>
+                  <span class="parameters">(ravi, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open1(raju, valid)">
+                  </a> <!-- open1(raju, valid) -->
+                  <span class="method-name">open1</span>
+                  <span class="parameters">(raju, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open1(rani, valid)">
+                  </a> <!-- open1(rani, valid) -->
+                  <span class="method-name">open1</span>
+                  <span class="parameters">(rani, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open1(kanna, valid)">
+                  </a> <!-- open1(kanna, valid) -->
+                  <span class="method-name">open1</span>
+                  <span class="parameters">(kanna, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.openAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="open(rani, Rupee)">
+                  </a> <!-- open(rani, Rupee) -->
+                  <span class="method-name">open</span>
+                  <span class="parameters">(rani, Rupee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open(kanna, Rupee)">
+                  </a> <!-- open(kanna, Rupee) -->
+                  <span class="method-name">open</span>
+                  <span class="parameters">(kanna, Rupee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open(ravi, Rupee)">
+                  </a> <!-- open(ravi, Rupee) -->
+                  <span class="method-name">open</span>
+                  <span class="parameters">(ravi, Rupee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open(raju, Rupee)">
+                  </a> <!-- open(raju, Rupee) -->
+                  <span class="method-name">open</span>
+                  <span class="parameters">(raju, Rupee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BOSU\eclipse-workspace\extentDeom\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Testdata.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;managlogni&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.ManagerLoginpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- managlogni --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;manager Addcust&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.ManagerAddcustomer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- manager Addcust --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;showcust&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.Showcustomerdetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- showcust --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;openacc&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.openAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- openacc --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;go to home&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.gotohomepage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- go to home --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Allcustlo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.AllCustomerLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Allcustlo --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">managlogni (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">manager Addcust (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">showcust (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">openacc (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">go to home (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Allcustlo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'open1')
+data.setCell(0, 2, 'Testcases.AllCustomerLogin')
+data.setCell(0, 3, 19643);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'open1')
+data.setCell(1, 2, 'Testcases.AllCustomerLogin')
+data.setCell(1, 3, 19181);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'open1')
+data.setCell(2, 2, 'Testcases.AllCustomerLogin')
+data.setCell(2, 3, 19172);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'open1')
+data.setCell(3, 2, 'Testcases.AllCustomerLogin')
+data.setCell(3, 3, 19088);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'setup3')
+data.setCell(4, 2, 'Testcases.Showcustomerdetails')
+data.setCell(4, 3, 7360);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'setup2')
+data.setCell(5, 2, 'Testcases.gotohomepage')
+data.setCell(5, 3, 2096);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'excelR')
+data.setCell(6, 2, 'Testcases.ManagerAddcustomer')
+data.setCell(6, 3, 1730);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'open')
+data.setCell(7, 2, 'Testcases.openAccount')
+data.setCell(7, 3, 1673);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'open')
+data.setCell(8, 2, 'Testcases.openAccount')
+data.setCell(8, 3, 1525);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'open')
+data.setCell(9, 2, 'Testcases.openAccount')
+data.setCell(9, 3, 1519);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'open')
+data.setCell(10, 2, 'Testcases.openAccount')
+data.setCell(10, 3, 1499);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'excelR')
+data.setCell(11, 2, 'Testcases.ManagerAddcustomer')
+data.setCell(11, 3, 1445);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'excelR')
+data.setCell(12, 2, 'Testcases.ManagerAddcustomer')
+data.setCell(12, 3, 1434);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'excelR')
+data.setCell(13, 2, 'Testcases.ManagerAddcustomer')
+data.setCell(13, 3, 1417);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'setup1')
+data.setCell(14, 2, 'Testcases.ManagerLoginpage')
+data.setCell(14, 3, 610);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'AddCus')
+data.setCell(15, 2, 'Testcases.ManagerAddcustomer')
+data.setCell(15, 3, 88);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.AllCustomerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.ManagerLoginpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setup1</span>
+                <span class="method-start">11026 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.ManagerAddcustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddCus</span>
+                <span class="method-start">11850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelR(kanna, admin, abc001)</span>
+                <span class="method-start">16207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelR(raju, bb, abc002)</span>
+                <span class="method-start">17943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelR(ravi, ccc, abc003)</span>
+                <span class="method-start">19368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelR(rani, ddd, abc004)</span>
+                <span class="method-start">20819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Showcustomerdetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setup3</span>
+                <span class="method-start">22293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22293 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.openAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open(kanna, Rupee)</span>
+                <span class="method-start">30201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open(raju, Rupee)</span>
+                <span class="method-start">31877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">open(ravi, Rupee)</span>
+                <span class="method-start">33378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open(rani, Rupee)</span>
+                <span class="method-start">34902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">checkAccNum</span>
+                <span class="method-start">36432 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.gotohomepage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setup2</span>
+                <span class="method-start">38689 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.AllCustomerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">AddCus</span>
+                <span class="method-start">40823 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">43430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open1(kanna, valid)</span>
+                <span class="method-start">43430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open1(raju, valid)</span>
+                <span class="method-start">63080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open1(ravi, valid)</span>
+                <span class="method-start">82171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">101356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">open1(rani, valid)</span>
+                <span class="method-start">101359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuite</span>
+                <span class="method-start">120564 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121945 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
